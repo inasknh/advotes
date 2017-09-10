@@ -1,0 +1,64 @@
+header, main, footer, #content{
+  margin: 0;
+	padding-left: 300px;
+  width: 100%;
+  max-width: 100%;
+}
+@media only screen and (max-width : 992px) {
+  header, main, footer, #content{
+    margin: 0;
+  	padding-left: 0px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+}
+
+
+#content{
+  /*position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;*/
+}
+nav.top-nav{
+	height: 60px;
+}
+nav.top-nav a.page-title{
+  line-height: 60px;
+  font-size: 20px;
+}
+#top-nav{
+  margin-left: 50px;
+  width: 95%;
+}
+#usernpm{
+  height: 60px;
+}
+#usernpm:hover{
+  background-color: #263238;
+  height: 60px;
+  cursor: default;
+}
+.sidemenu:hover{
+  background-color: #ffffff;
+}
+/*#sidebar-wrapper{
+  background-image: url('/images/greymarble.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+.logo-wrapper > p{
+  line-height: 7px;
+  font-size: 25px;
+}
+#sidebar, .logo-wrapper{
+  background-color: rgba(10, 10, 10, 0.7);
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+hr{
+  margin: 0;
+}

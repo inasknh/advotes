@@ -1,0 +1,42 @@
+#left, #right{
+  min-height: 100vh;
+}
+#signin{
+  width: 100%;
+}
+#left {
+  padding: 0;
+  background-image: url('/images/greymarble.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+#leftCover{
+  background-color: rgba(10, 10, 10, 0.7);
+  width: 100%;
+  height: 100%;
+}
+#materialize{
+  height: 25px;
+}
+#laravel{
+  height: 25px;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label{
+  color: #000;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field input[type=password]:focus + label{
+  color: #000;
+}
+/* label underline focus color */
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}

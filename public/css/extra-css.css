@@ -1,0 +1,57 @@
+
+.button-collapse{
+	cursor: default;
+}
+.inputPemilih{
+	height: 320px;
+}
+.fillerExcel{
+	height: 81px;
+}
+.picker__date-display, .picker__weekday-display{
+  background-color: #263238;
+}
+.picker__today, .picker__close{
+	color: #263238;
+}
+div.picker__day.picker__day--infocus.picker__day--selected.picker__day--highlighted{
+	background-color: #263238;
+}
+div.picker__day.picker__day--today{
+	color: #595959;
+}
+div.picker__day.picker__day--today:hover{
+	color: black;
+	font-weight: 500;
+}
+div.picker__day.picker__day--today, div.picker__day.picker__day--today.picker__day--selected{
+	border: 1px solid #263238;
+}
+button.btn-flat.picker__today, button.btn-flat.picker__close{
+	color: white;
+	background-color: #263238;
+}
+
+.input-field input:focus + label {
+   color: #263238 !important;
+ }
+ /* label underline focus color */
+ .input-field input:focus {
+   border-bottom: 1px solid #263238 !important;
+   box-shadow: 0 1px 0 0 #263238 !important
+ }
+
+#toast-container {
+  top: 90%;
+  right: auto !important;
+  bottom: 0% !important;
+  left:40% !important;
+}
+
+.dropdown-content.select-dropdown li>span{
+ color: #263238;
+}
+
+.statistik-content{
+	padding: 0px !important; 
+}
